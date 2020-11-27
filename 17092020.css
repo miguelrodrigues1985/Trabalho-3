@@ -1,0 +1,78 @@
+*{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+}
+header{
+    background-image: url("imagens/2.jpg");
+    background-size: 100%;
+    padding-bottom: 30px;
+}
+
+header h1{
+    color: rgb(139, 68, 68);
+    text-align: center;
+    padding-bottom: 70px;
+    font-weight: bold;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.form{
+    width: 92%;
+    display: block;
+    margin-left: auto;
+    padding-top: 20px;
+}
+
+.form input, .form button, .form textarea, .form select{
+    width: 400px;
+    margin-bottom: 10px;
+    height: 40px;
+    color: rgb(112, 80, 80,0.5);
+}
+.form input[type=radio]{
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+}
+
+.form input::placeholder{
+    text-indent: 10px;;
+    color: rgb(112, 80, 80,0.5);
+}
+body{
+    background-color: cornsilk;
+}
+
+.container .row{
+    text-align: justify;
+    color: rgb(70, 8, 54);
+    padding-top: 30px;
+}
+
+.container .row img{
+    width: 100%;
+    border-radius: 0 0 200px 200px;
+}
+#btnguardar{
+    color: wheat ;
+    transition-duration: 0.5s;
+   background-color: rgb(70, 8, 54);
+}
+#btnguardar:hover{
+    background-color: wheat;
+    color: rgb(70, 8, 54);
+}
+.form textarea::placeholder{
+    color: rgb(112, 80, 80,0.5);
+    text-indent: 10px;
+}
+.wtv{
+    padding-top: 50px;
+}
+.barrica{
+    word-spacing:  40px;
+    float: left;
+}
+#cmbcidade{
+    color: rgb(70, 8, 54,0.5);
+}
